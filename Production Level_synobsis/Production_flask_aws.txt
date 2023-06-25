@@ -1,0 +1,24 @@
+
+
+step1:- copy deployment folder structure from local to server (winscp)
+step2:- putty connect vm
+follow images
+ls
+cd deplpyment/ls
+
+sudo apt update
+sudo apt install python3-pip
+pip install sckit-learn
+pip install flask
+
+Run : python3 main.py
+
+http://ec2-13-51-146-139.eu-north-1.compute.amazonaws.com:9090/ (open in browser)
+
+http://ec2-13-51-146-139.eu-north-1.compute.amazonaws.com:9090/
+
+
+add pls line (main .py)
+#run
+app.run(port=9090, host='0.0.0.0')
+

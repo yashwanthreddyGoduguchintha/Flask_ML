@@ -2,12 +2,18 @@
   <body style="background:green">
     <h1 style="text-align:center">Deployment Home</h1>
     <h2 style="text-align:center">This is the Demo of Machine learning model Deployment!</h2>
-    <form style="padding: 0;font-weight: bold;text-align: center;display: block;">
-      <p><label>Name <input type="text" name="first_name" placeholder="first name" required></label></p>
-      <p><label> Email<input type="email" name="mail" placeholder="Mail address" required></label></p>
-      <p><label> Pin code<input type="number" name="pin code" placeholder="pin code" required></label></p>
-      <p><label>Description<input type="text" name="description" placeholder="description" required></label></p>
+    <form method="post" action="/predict"  style="padding: 0;font-weight: bold;text-align: center;display: block;">
+      <p><label> preg<input type="number" name="preg" placeholder="preg" required></label></p>
+      <p><label> plas<input type="number" name="plas" placeholder="plas" required></label></p>
+      <p><label> pres<input type="number" name="pres" placeholder="pres" required></label></p>
+      <p><label> skin<input type="number" name="skin" placeholder="skin" required></label></p>
+      <p><label> test<input type="number" name="test" placeholder="test" required></label></p>
+      <p><label> mass<input type="number" name="mass" placeholder="mass" required></label></p>
+      <p><label> pedi<input type="number" name="pedi" placeholder="pedi" required></label></p>
+      <p><label> age<input type="number" name="age" placeholder="age" required></label></p>
       <button>submit</button>
     </form>
   </body>
 </html>
+
+

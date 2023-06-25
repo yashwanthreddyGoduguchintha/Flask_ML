@@ -25,4 +25,4 @@ result = model.score(X_test, y_test)
 print(result)
 
 #saving the model
-joblib.dump(model, "joblib_model.pkl")
+joblib.dump(model, "../flask_api/joblib_model.pkl")
